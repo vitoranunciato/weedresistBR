@@ -45,9 +45,10 @@ Se voce so conhece o **martelo** todo problema é um **prego**.
 # Pressão de seleção
   + é qualquer conjunto de fatores (aplicacao de um determiando herbicida) que origina o favorecimento de determinados **genes** em relação a outros em determinada **população**.
   
-![](https://github.com/vitoranunciato/weedresistenceBR/blob/master/resistenceofweeds_files/figure-html/selection_of_weeds/Slide1.PNG?raw=true)
+![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/selectionpressure.PNG)
 
 ---
+
 p <- ggplot(
   airquality,
   aes(Day, Temp, group = Month, color = factor(Month))
@@ -69,3 +70,5 @@ The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](https://yih
 # Referências
 
 Heap, I.  The International Herbicide-Resistant Weed Database.  Online.  Wednesday, October 14, 2020 .  Available  www.weedscience.org Copyright © 1993- 2020 WeedScience.org All rights reserved. 
+
+Alcántara-de la Cruz, Ricardo, Guilherme Moraes de Oliveira, and Leonardo Bianco de Carvalho. ["Herbicide Resistance in Brazil: Status, Impacts, and Future Challenges."](https://www.intechopen.com/online-first/herbicide-resistance-in-brazil-status-impacts-and-future-challenges) Herbicides-Current Research and Case Studies in Use. IntechOpen, 2020.
