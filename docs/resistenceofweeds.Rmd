@@ -30,7 +30,8 @@ output:
 ---
 class: inverse, middle
 
-# O que e resistência de plantas a herbicidas?
+# O que é resistência de plantas a herbicidas?
+
 ---
 class: middle
 
@@ -73,7 +74,7 @@ class: middle
 
 # Rápida necrose
 
-A rápida necrose é um tipo de resistência onde a planta "sacrifica" os tecidos atingidos pelo herbicida, evitando que o mesmo translouque para o resto da planta, principalmente os meristemas.
+A rápida necrose é um tipo de resistência onde a planta **"sacrifica"** os tecidos **atingidos** pelo herbicida, evitando que o mesmo **translouque** para o resto da planta, principalmente os meristemas.
 
 ![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/rpnb.png?raw=true)
 Albrech, 2020.
@@ -87,24 +88,34 @@ class: middle
 ![](https://media.giphy.com/media/jKxbaLhu9SAU9z6lyP/giphy.gif)
 
 
+---
+# Desintoxicação ou metabolização
 
+Capacidade que as plantas resistentes possuem de **inativar ou transformar** o herbicida em uma forma **menos tóxica** a planta.
+
+![](https://media.giphy.com/media/X7hOV8HGBtx64mdcR6/giphy.gif)
+---
+# Desintoxicação ou metabolização
+
+![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/detx.jpeg?raw=true)
 ---
 class: inverse, middle
 # Como a surge a resistência?
+
 ---
 # Pressão de seleção
 é qualquer conjunto de fatores (aplicacao de um determiando herbicida) que origina o favorecimento de determinados **genes** em relação a outros em determinada **população**.
-  
+
 ![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/selectionpressure.PNG?raw=true)
 
 ---
 class: midle
 
 # Aonde erramos? 
+Se você só conhece o martelo todo problema é um prego
 <center>
-![hammer](https://media.giphy.com/media/lkzQSklzkfqUzSd4j3/giphy.gif)
+![hammer](https://media.giphy.com/media/3mJEekHXkjSCnWGTym/giphy.gif)
 
-Se você só conhece o **martelo** todo problema é um **prego**.
 ---
 class: middle
 
