@@ -1,6 +1,5 @@
 ---
 title: "Resistência de plantas daninhas"
-subtitle: "\U0001F343"
 author: "Anunciato, V.M."
 date: "2020/10/14 (updated: `r Sys.Date()`)"
 encoding: "UTF-8"
@@ -39,6 +38,8 @@ class: middle
 A resistência a herbicidas é a capacidade de uma planta para **sobreviver** e se **reproduzir** após a exposição a uma **dose anteriormente letal** de um herbicida.
 
 Yuan et al, 2007.
+<center>
+![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/tumblr_nbpotrjgO11qi4ibzo1_500.gif?raw=true)
 
 ---
 class:middle
@@ -66,7 +67,6 @@ Feng et al, 2004.
 .pull-left[**Susceptível**]
 .pull-left[**Resistente**]
 
-
 Adaptado de De Carvalho et al, 2012.
 
 ---
@@ -83,7 +83,6 @@ Albrech, 2020.
 class: middle
 
 # Rápida necrose
-
 <center>
 ![](https://media.giphy.com/media/jKxbaLhu9SAU9z6lyP/giphy.gif)
 
@@ -93,6 +92,7 @@ class: middle
 
 Capacidade que as plantas resistentes possuem de **inativar ou transformar** o herbicida em uma forma **menos tóxica** a planta.
 
+<center>
 ![](https://media.giphy.com/media/X7hOV8HGBtx64mdcR6/giphy.gif)
 ---
 # Desintoxicação ou metabolização
@@ -110,9 +110,9 @@ class: inverse, middle
 
 ---
 class: midle
-
 # Aonde erramos? 
-Se você só conhece o martelo todo problema é um prego
+Se você só conhece o martelo todo problema é um prego.
+
 <center>
 ![hammer](https://media.giphy.com/media/3mJEekHXkjSCnWGTym/giphy.gif)
 
