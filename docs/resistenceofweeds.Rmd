@@ -131,7 +131,9 @@ class: middle
 
 A planta compatibiliza o herbicida no vacúolo, no vacúolo o herbicida eh degradado e o herbicida é inativado e não ocorre o controle da planta daninha não ocorre.
 
-![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/sequestro.png?raw=true)
+.pull-left[![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/sequestro.png?raw=true)]
+
+.pull-rigth[![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/vacuolo.jpg?raw=true)]
 
 ---
 class: inverse, middle
