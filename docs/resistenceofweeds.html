@@ -6,6 +6,14 @@
     <meta name="author" content="Anunciato, V.M." />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/metropolis-fonts.css" rel="stylesheet" />
+    <script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+    <script src="libs/plotly-binding-4.9.2.1/plotly.js"></script>
+    <script src="libs/typedarray-0.1/typedarray.min.js"></script>
+    <script src="libs/jquery-1.11.3/jquery.min.js"></script>
+    <link href="libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+    <script src="libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
+    <link href="libs/plotly-htmlwidgets-css-1.52.2/plotly-htmlwidgets.css" rel="stylesheet" />
+    <script src="libs/plotly-main-1.52.2/plotly-latest.min.js"></script>
   </head>
   <body>
     <textarea id="source">
@@ -20,12 +28,12 @@ class: center, middle, inverse, title-slide
 # Vitor Muller Anunciato
 
 * Doutorando pela [FCA/UNESP](https://www.fca.unesp.br/) - Botucatu, BR.
-  + (Sanduiche University of Nebraska Lincoln, EUA).
+  + (Sanduiche [University of Nebraska Lincoln](https://pat.unl.edu/), EUA).
   
 * Mestrado pela [FCA/UNESP](https://www.fca.unesp.br/) - Botucatu, BR.
 
 * Graduacao pela [UEL](http://portal.uel.br/home/) - Londrina, BR.
-  + (Sanduiche ENGEES, Strasbourg, FR).
+  + (Sanduiche [ENGEES](https://engees.unistra.fr/), Strasbourg, FR).
 
 * [Serial Weed Killer](https://serialweedkiller.netlify.app/)
   + (site de divulgacao agro-cientifica)
@@ -109,7 +117,7 @@ class: inverse, middle
 
 ---
 ## Pressão de seleção
-É qualquer conjunto de fatores (aplicacao de um determiando herbicida) que origina o favorecimento de determinados **genes** em relação a outros em determinada **população**.
+É qualquer conjunto de fatores (ex: aplicacao de um determiando herbicida) que origina o favorecimento de determinados **genes** em relação a outros em determinada **população**.
 
 ![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/selectionpressure.PNG?raw=true)
 
@@ -124,10 +132,8 @@ Se você só conhece o martelo todo problema é um prego.
 ---
 class: middle
 
-## Pressão de seleção
-
 &lt;div align="center"&gt;
-&lt;img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/weedresitancecount.gif?raw=true" width=800 height=600&gt;
+&lt;img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/weedresitancecount.gif?raw=true" width=1000 height=600&gt;
 &lt;/div&gt;
 
 ---
@@ -135,13 +141,13 @@ class: middle
 
 ## Sequestro no vacúolo
 
-A planta compatibiliza o herbicida no vacúolo, no vacúolo o herbicida é degradado e o herbicida é inativado e não ocorre o controle da planta daninha não ocorre.
+A planta **transporta** e **apreende o herbicida no vacúolo**, no vacúolo o herbicida é degradado e o herbicida é inativado e não ocorre o **controle da planta daninha não ocorre**.
 
 .pull-left[![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/sequestro.png?raw=true)]
 
 .pull-rigth[![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/vacuolo.png?raw=true)]
 
-GE, 2012.
+GE et al, 2012.
 ---
 &lt;div align="center"&gt;
 &lt;img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/rapidvacuole.png?raw=true" width=600 height=600&gt;
@@ -161,6 +167,39 @@ d'Avignon, D. André, and Xia Ge, 2018.
 &lt;div align="center"&gt;
 &lt;img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/genecopies.png?raw=true" width=700 height=600&gt;
 &lt;/div&gt;
+
+Gaines et al, 2010.
+---
+
+## Modificação no sitio de ação
+
+Consiste na **alteração do sitio de ação**, normalmente essa alteração ocorre pela troca de um aminoácido componente da enzima, isso faz com que o **herbicida não consiga mais se ligar a enzima alvo e impedir a ação da mesma**.
+
+&lt;div align="center"&gt;
+&lt;img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/lockkey.gif?raw=true" width=450 height=450&gt;
+&lt;/div&gt;
+---
+&lt;div align="center"&gt;
+&lt;img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/genemutate.jpg?raw=true" width=800 height=500&gt;
+&lt;/div&gt;
+Yu, Qin, et al. 2015.
+---
+&lt;div align="center"&gt;
+&lt;img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/genemutate2.jpg?raw=true" width=800 height=500&gt;
+&lt;/div&gt;
+Yu, Qin, et al. 2015.
+---
+class: inverse, middle
+
+# Manejo "Apaga fogo"  🔥
+
+---
+#### Regra numero 1: "Planta daninha se mata no ninho"
+
+<div id="htmlwidget-91874cd69753d61a41b1" style="width:21600px;height:21600px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-91874cd69753d61a41b1">{"x":{"visdat":{"200c101d2849":["function () ","plotlyVisDat"]},"cur_data":"200c101d2849","attrs":{"200c101d2849":{"x":[100,96,63,22,100,94,81,38,100,91,70,32],"y":["2 leaves","> 5 leaves","> 10 leaves","reprodutive","2 leaves","> 5 leaves","> 10 leaves","reprodutive","2 leaves","> 5 leaves","> 10 leaves","reprodutive"],"text":["Comercial dose of ACCase","Comercial dose of ACCase","Comercial dose of ACCase","Comercial dose of ACCase","Comercial dose of ALS","Comercial dose of ALS","Comercial dose of ALS","Comercial dose of ALS","Comercial dose of ALS","Comercial dose of ALS","Comercial dose of ALS","Comercial dose of ALS"],"color":["E.indica","E.indica","E.indica","E.indica","A. hybrydus","A. hybrydus","A. hybrydus","A. hybrydus","E. heterofila","E. heterofila","E. heterofila","E. heterofila"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Control of weed based in stage of spray","xaxis":{"domain":[0,1],"automargin":true,"title":"Control (%)"},"yaxis":{"domain":[0,1],"automargin":true,"title":"Stage","type":"category","categoryorder":"array","categoryarray":["2 leaves","> 5 leaves","> 10 leaves","reprodutive"]},"hovermode":"closest","showlegend":true},"source":"A","config":{"showSendToCloud":false},"data":[{"x":[100,94,81,38],"y":["2 leaves","> 5 leaves","> 10 leaves","reprodutive"],"text":["Comercial dose of ALS","Comercial dose of ALS","Comercial dose of ALS","Comercial dose of ALS"],"type":"bar","orientation":"h","name":"A. hybrydus","marker":{"color":"rgba(102,194,165,1)","line":{"color":"rgba(102,194,165,1)"}},"textfont":{"color":"rgba(102,194,165,1)"},"error_y":{"color":"rgba(102,194,165,1)"},"error_x":{"color":"rgba(102,194,165,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[100,91,70,32],"y":["2 leaves","> 5 leaves","> 10 leaves","reprodutive"],"text":["Comercial dose of ALS","Comercial dose of ALS","Comercial dose of ALS","Comercial dose of ALS"],"type":"bar","orientation":"h","name":"E. heterofila","marker":{"color":"rgba(252,141,98,1)","line":{"color":"rgba(252,141,98,1)"}},"textfont":{"color":"rgba(252,141,98,1)"},"error_y":{"color":"rgba(252,141,98,1)"},"error_x":{"color":"rgba(252,141,98,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[100,96,63,22],"y":["2 leaves","> 5 leaves","> 10 leaves","reprodutive"],"text":["Comercial dose of ACCase","Comercial dose of ACCase","Comercial dose of ACCase","Comercial dose of ACCase"],"type":"bar","orientation":"h","name":"E.indica","marker":{"color":"rgba(141,160,203,1)","line":{"color":"rgba(141,160,203,1)"}},"textfont":{"color":"rgba(141,160,203,1)"},"error_y":{"color":"rgba(141,160,203,1)"},"error_x":{"color":"rgba(141,160,203,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+
+
 ---
 class: inverse, middle
 
@@ -179,6 +218,12 @@ Yuan, Joshua S., Patrick J. Tranel, and C. Neal Stewart Jr. ["Non-target-site he
 d'Avignon, D. André, and Xia Ge. ["In vivo NMR investigations of glyphosate influences on plant metabolism."](https://www.sciencedirect.com/science/article/pii/S1090780718300910) Journal of Magnetic Resonance 292 (2018): 59-72.
 
 GE, Xia et al. [Vacuolar glyphosate-sequestration correlates with glyphosate resistance in ryegrass (Lolium spp.) from Australia, South America, and Europe: a 31P NMR investigation.](https://pubs.acs.org/doi/abs/10.1021/jf203472s?casa_token=j-v2MPQQlS8AAAAA:HOtW59U6HXhvWLzbF2waQeNvv9AbWBOwjZhzouyAABsXWUEQhWRcLwU6bQPuk85MD_0RW2ExOoWJ_3yzSQ)Journal of agricultural and food chemistry, v. 60, n. 5, p. 1243-1250, 2012.
+
+---
+
+GAINES, Todd A. et al. [Gene amplification confers glyphosate resistance in Amaranthus palmeri.](https://www.pnas.org/content/107/3/1029) Proceedings of the National Academy of Sciences, v. 107, n. 3, p. 1029-1034, 2010.
+
+Yu, Qin, et al. ["Evolution of a double amino acid substitution in the 5-enolpyruvylshikimate-3-phosphate synthase in Eleusine indica conferring high-level glyphosate resistance."](http://www.plantphysiol.org/content/167/4/1440#def-4) Plant physiology 167.4 (2015): 1440-1447.
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

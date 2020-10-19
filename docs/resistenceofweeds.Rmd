@@ -15,12 +15,12 @@ output:
 # Vitor Muller Anunciato
 
 * Doutorando pela [FCA/UNESP](https://www.fca.unesp.br/) - Botucatu, BR.
-  + (Sanduiche University of Nebraska Lincoln, EUA).
+  + (Sanduiche [University of Nebraska Lincoln](https://pat.unl.edu/), EUA).
   
 * Mestrado pela [FCA/UNESP](https://www.fca.unesp.br/) - Botucatu, BR.
 
 * Graduacao pela [UEL](http://portal.uel.br/home/) - Londrina, BR.
-  + (Sanduiche ENGEES, Strasbourg, FR).
+  + (Sanduiche [ENGEES](https://engees.unistra.fr/), Strasbourg, FR).
 
 * [Serial Weed Killer](https://serialweedkiller.netlify.app/)
   + (site de divulgacao agro-cientifica)
@@ -104,7 +104,7 @@ class: inverse, middle
 
 ---
 ## Pressão de seleção
-É qualquer conjunto de fatores (aplicacao de um determiando herbicida) que origina o favorecimento de determinados **genes** em relação a outros em determinada **população**.
+É qualquer conjunto de fatores (ex: aplicacao de um determiando herbicida) que origina o favorecimento de determinados **genes** em relação a outros em determinada **população**.
 
 ![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/selectionpressure.PNG?raw=true)
 
@@ -119,10 +119,8 @@ Se você só conhece o martelo todo problema é um prego.
 ---
 class: middle
 
-## Pressão de seleção
-
 <div align="center">
-<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/weedresitancecount.gif?raw=true" width=800 height=600>
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/weedresitancecount.gif?raw=true" width=1000 height=600>
 </div>
 
 ---
@@ -130,13 +128,13 @@ class: middle
 
 ## Sequestro no vacúolo
 
-A planta compatibiliza o herbicida no vacúolo, no vacúolo o herbicida é degradado e o herbicida é inativado e não ocorre o controle da planta daninha não ocorre.
+A planta **transporta** e **apreende o herbicida no vacúolo**, no vacúolo o herbicida é degradado e o herbicida é inativado e não ocorre o **controle da planta daninha não ocorre**.
 
 .pull-left[![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/sequestro.png?raw=true)]
 
 .pull-rigth[![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/vacuolo.png?raw=true)]
 
-GE, 2012.
+GE et al, 2012.
 ---
 <div align="center">
 <img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/rapidvacuole.png?raw=true" width=600 height=600>
@@ -156,6 +154,60 @@ d'Avignon, D. André, and Xia Ge, 2018.
 <div align="center">
 <img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/genecopies.png?raw=true" width=700 height=600>
 </div>
+
+Gaines et al, 2010.
+---
+
+## Modificação no sitio de ação
+
+Consiste na **alteração do sitio de ação**, normalmente essa alteração ocorre pela troca de um aminoácido componente da enzima, isso faz com que o **herbicida não consiga mais se ligar a enzima alvo e impedir a ação da mesma**.
+
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/lockkey.gif?raw=true" width=450 height=450>
+</div>
+---
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/genemutate.jpg?raw=true" width=800 height=500>
+</div>
+Yu, Qin, et al. 2015.
+---
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/genemutate2.jpg?raw=true" width=800 height=500>
+</div>
+Yu, Qin, et al. 2015.
+---
+class: inverse, middle
+
+# Manejo "Apaga fogo"  🔥
+
+---
+#### Regra numero 1: "Planta daninha se mata no ninho"
+
+```{r echo=FALSE, fig.height=300, fig.width=300, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+df3 <- data.frame(species=rep(c("E.indica", "A. hybrydus", "E. heterofila"), each=4),
+                  stage=rep(c("2 leaves", "> 5 leaves", "> 10 leaves", "reprodutive"),3),
+                  control=c(100, 96, 63, 22, 100, 94, 81, 38, 100, 91, 70, 32),
+                  text <- rep(c('Comercial dose of ACCase', 'Comercial dose of ALS', 'Comercial dose of ALS'), each=4))
+df3$stage <- factor(df3$stage, levels = c("2 leaves", "> 5 leaves", "> 10 leaves", "reprodutive"))
+
+
+library(plotly)
+library(plyr)
+
+tg <- ddply(df3, c("species", "stage"), summarise, length=mean(control))
+
+fig <- plot_ly(df3, x = df3$control, y = df3$stage, type = 'bar', text = df3$text, color = df3$species)
+fig <- fig %>% layout(title = "Control of weed based in stage of spray",
+                      xaxis = list(title = "Control (%)"),
+                      yaxis = list(title = "Stage"))
+
+fig
+
+
+```
+
+
 ---
 class: inverse, middle
 
@@ -174,5 +226,12 @@ Yuan, Joshua S., Patrick J. Tranel, and C. Neal Stewart Jr. ["Non-target-site he
 d'Avignon, D. André, and Xia Ge. ["In vivo NMR investigations of glyphosate influences on plant metabolism."](https://www.sciencedirect.com/science/article/pii/S1090780718300910) Journal of Magnetic Resonance 292 (2018): 59-72.
 
 GE, Xia et al. [Vacuolar glyphosate-sequestration correlates with glyphosate resistance in ryegrass (Lolium spp.) from Australia, South America, and Europe: a 31P NMR investigation.](https://pubs.acs.org/doi/abs/10.1021/jf203472s?casa_token=j-v2MPQQlS8AAAAA:HOtW59U6HXhvWLzbF2waQeNvv9AbWBOwjZhzouyAABsXWUEQhWRcLwU6bQPuk85MD_0RW2ExOoWJ_3yzSQ)Journal of agricultural and food chemistry, v. 60, n. 5, p. 1243-1250, 2012.
+
+---
+
+GAINES, Todd A. et al. [Gene amplification confers glyphosate resistance in Amaranthus palmeri.](https://www.pnas.org/content/107/3/1029) Proceedings of the National Academy of Sciences, v. 107, n. 3, p. 1029-1034, 2010.
+
+Yu, Qin, et al. ["Evolution of a double amino acid substitution in the 5-enolpyruvylshikimate-3-phosphate synthase in Eleusine indica conferring high-level glyphosate resistance."](http://www.plantphysiol.org/content/167/4/1440#def-4) Plant physiology 167.4 (2015): 1440-1447.
+
 
 
