@@ -182,10 +182,9 @@ class: inverse, middle
 
 ---
 #### Regra numero 1: "Planta daninha se mata no ninho"
+```{r echo=FALSE, fig.height=8, fig.width=12}
 
-```{r echo=FALSE, fig.height=300, fig.width=300, message=FALSE, warning=FALSE, paged.print=FALSE}
-
-df3 <- data.frame(species=rep(c("E.indica", "A. hybrydus", "E. heterofila"), each=4),
+df3 <- data.frame(species=rep(c("E.indica", "A. hybridus", "E. heterophylla"), each=4),
                   stage=rep(c("2 leaves", "> 5 leaves", "> 10 leaves", "reprodutive"),3),
                   control=c(100, 96, 63, 22, 100, 94, 81, 38, 100, 91, 70, 32),
                   text <- rep(c('Comercial dose of ACCase', 'Comercial dose of ALS', 'Comercial dose of ALS'), each=4))
@@ -194,6 +193,9 @@ df3$stage <- factor(df3$stage, levels = c("2 leaves", "> 5 leaves", "> 10 leaves
 
 library(plotly)
 library(plyr)
+library(RCurl)
+library(ggplot2)
+library(gganimate)
 
 tg <- ddply(df3, c("species", "stage"), summarise, length=mean(control))
 
@@ -201,10 +203,7 @@ fig <- plot_ly(df3, x = df3$control, y = df3$stage, type = 'bar', text = df3$tex
 fig <- fig %>% layout(title = "Control of weed based in stage of spray",
                       xaxis = list(title = "Control (%)"),
                       yaxis = list(title = "Stage"))
-
 fig
-
-
 ```
 
 
