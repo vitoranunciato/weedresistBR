@@ -74,7 +74,7 @@ class: middle
 
 # Rápida necrose
 
-A rápida necrose é um tipo de resistência onde a planta **"sacrifica"** os tecidos **atingidos** pelo herbicida, evitando que o mesmo **translouque** para o resto da planta, principalmente os meristemas.
+É um tipo de resistência onde a planta **"sacrifica"** os tecidos **atingidos** pelo herbicida, evitando que o mesmo **translouque** para o resto da planta, principalmente os meristemas.
 
 ![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/rpnb.png?raw=true)
 Albrech, 2020.
@@ -104,7 +104,7 @@ class: inverse, middle
 
 ---
 ## Pressão de seleção
-é qualquer conjunto de fatores (aplicacao de um determiando herbicida) que origina o favorecimento de determinados **genes** em relação a outros em determinada **população**.
+É qualquer conjunto de fatores (aplicacao de um determiando herbicida) que origina o favorecimento de determinados **genes** em relação a outros em determinada **população**.
 
 ![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/selectionpressure.PNG?raw=true)
 
@@ -121,9 +121,10 @@ class: middle
 
 ## Pressão de seleção
 
-![](weedresitancecount.gif)
+<div align="center">
+<img src="weedresitancecount.gif" width=800 height=600>
+</div>
 
-* O consecutivo e indiscriminado uso do glyphosate elevou a pressão de seleção para as populações resistentes a esse herbicida.
 ---
 class: middle
 
@@ -135,9 +136,14 @@ A planta compatibiliza o herbicida no vacúolo, no vacúolo o herbicida é degra
 
 .pull-rigth[![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/vacuolo.png?raw=true)]
 ---
-![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/rapidvacuole.png?raw=true)
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/rapidvacuole.png?raw=true" width=800 height=600>
+</div>
+
 ---
 ## Amplificação gênica
+
+É a expansão no número de cópias de um gene em um genoma celular. Ocorre por erro na replicação do DNA genômico, resulta da replicação redundante de uma mesma seqüência de DNA.
 
 ---
 class: inverse, middle
