@@ -178,8 +178,12 @@ Yu, Qin, et al. 2015.
 ---
 class: inverse, middle
 
-# Manejo "Apaga fogo"  🔥
+# Manejo de plantas resistentes
 
+---
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/herbicidelist.png?raw=true" width=1000 height=600>
+</div>
 ---
 #### Regra de ouro: "Não perca o ponto de controle"
 ```{r echo=FALSE, fig.height=8, fig.width=11, message=FALSE, warning=FALSE}
