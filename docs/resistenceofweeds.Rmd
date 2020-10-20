@@ -258,19 +258,43 @@ class: inverse, middle
 ---
 <div align="center">
 <img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/manejo_outonal1.png?raw=true" width=800 height= 550>
+
 Antonio M.O. Neto, 2011.
 ---
 <div align="center">
 <img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/manejo_outonal2.png?raw=true" width=800 height= 550>
+
 Antonio M.O. Neto, 2011.
 ---
 <div align="center">
 <img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/manejo_outonal3.png?raw=true" width=800 height= 550>
+
 Antonio M.O. Neto, 2011.
 ---
 <div align="center">
 <img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/manejo_outonal4.png?raw=true" width=800 height= 550>
+
 Antonio M.O. Neto, 2011.
+---
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/pre1.png?raw=true" width=800 height= 550>
+
+[ADAMA](https://www.adama.com/brasil/pt/espaco-do-agricultor/pre-emergentes-em-soja)
+---
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/pre2.png?raw=true" width=800 height= 550>
+
+[ADAMA](https://www.adama.com/brasil/pt/espaco-do-agricultor/pre-emergentes-em-soja)
+---
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/pre3.png?raw=true" width=800 height= 550>
+
+[ADAMA](https://www.adama.com/brasil/pt/espaco-do-agricultor/pre-emergentes-em-soja)
+---
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/pre4.png?raw=true" width=800 height= 550>
+
+[ADAMA](https://www.adama.com/brasil/pt/espaco-do-agricultor/pre-emergentes-em-soja)
 ---
 class: inverse, middle
 
