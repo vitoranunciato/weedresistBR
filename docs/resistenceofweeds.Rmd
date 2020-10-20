@@ -235,11 +235,15 @@ fig
 </div>
 
 ---
-# Perdeu o timing de aplicação
+# Perdeu o timing de aplicação?
 <div align="center">
 <img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/shit.gif?raw=true" width=500 height=500>
 </div>
 ---
+*Importancia do timing*
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/buva_altura.png?raw=true" width=800 height=600>
+</div>
 
 ---
 class: inverse, middle
