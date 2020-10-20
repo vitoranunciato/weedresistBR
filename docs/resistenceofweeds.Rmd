@@ -181,8 +181,8 @@ class: inverse, middle
 # Manejo "Apaga fogo"  🔥
 
 ---
-#### Regra numero 1: "Planta daninha se mata no ninho"
-```{r echo=FALSE, fig.height=8, fig.width=12}
+#### Regra numero 1: "Nao perca o ponto de controle"
+```{r echo=FALSE, fig.height=8, fig.width=11, message=FALSE, warning=FALSE}
 
 df3 <- data.frame(species=rep(c("E.indica", "A. hybridus", "E. heterophylla"), each=4),
                   stage=rep(c("2 leaves", "> 5 leaves", "> 10 leaves", "reprodutive"),3),
@@ -206,6 +206,32 @@ fig <- fig %>% layout(title = "Control of weed based in stage of spray",
 fig
 ```
 
+---
+## 2 folhas
+
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/ahybridus2.jpg?raw=true" width=800 height=500>
+</div>
+
+---
+### >5 folhas
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/ahybridus5.jpg?raw=true" width=800 height=500>
+</div>
+---
+### >10 folhas
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/ahybridus10.jpg?raw=true" width=800 height=500>
+</div>
+
+---
+### planta adulta
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/amaranthusresult.jpeg?raw=true" width=800 height=500>
+</div>
+
+---
+#### Regra numero 1: ""
 
 ---
 class: inverse, middle
