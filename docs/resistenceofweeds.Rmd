@@ -296,6 +296,39 @@ Antonio M.O. Neto, 2011.
 
 [ADAMA](https://www.adama.com/brasil/pt/espaco-do-agricultor/pre-emergentes-em-soja)
 ---
+### Manejo em pos 
+<div align="center">
+<img src="https://lh3.googleusercontent.com/9feGzWsexd1OE3Ukv2TystQGsvG61nrqzF0vQQTfDgkUKp0SXOa1xLx7lK676AIegI3oinPg6NuMfxeLA_VC2mb9IymElEX37tqcpc9S_ubYVP5EX3_HnskYaIXX6UVw_Z2hhZBitXC34-FMqmVIJuzQsosTKU0LHwCshgZV7LySbPnlDpv2dJdKRYhpZePl0v0qR1JnNX5jTvwVYN5vI4bASk-aAFA4lMk4QJM4qt8XwZbKJeM4LKOpTQuh7ZyfPP_ydz9rjmJBDJQAut5D62vGA9GM4IK2s6E8NfTaQaybP2rjoHwqBSS4TxJ5TuHqLawBd3CVosajpww23E0UrQYcNtwOulYA3d5hBXm9oPi4RNJMY2AqUGUfYsPT4bTmKZPTce7uK55mxoPp1onaxYg7FlkKo1tx9uhtV-aOQAjLHduVtfEinwREumRCgYiFzbt-s_siKiTjx3fYMeg-JrgAZls2IQ8emYcr7AOdmPQbPttptFIHkQfHglkXHObfbo8jyP4ZFaVo9WKAZkCACthad4L3P51tJNH2D_haLNud7Js2XWW7MrptkTn1_kMP9polOCk1pQsvaCH85MnsNPrEHF3KZhUC9wJk-3kPoJ8YOhDisda1fz_zvyi_nO8Z5UJF8-sA0NtjBse5IQckQqdra1gvH1Z68dA4YkO0t89fsCRFz5a8AmcikCx8GU8=w1605-h903-no?authuser=0" width=800 height= 550>
+---
+## 3 a 4 perfilhos
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/3a4perfilhos.png?raw=true" width=800 height= 500>
+Grigolli, 2019.
+---
+## 8 perfilhos
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/8perfilhos.png?raw=true" width=800 height= 500>
+Grigolli, 2019.
+---
+class: inverse, middle
+
+# Estratégias para reduzir a dependência dos herbicidas
+
+---
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/cobertura2.png?raw=true" width=800 height= 550>
+---
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/cobertura.png?raw=true" width=500 height= 550>
+
+Rizzardi e Silva, 2014.
+---
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/rotacao.png?raw=true" width=800 height= 550>
+
+Davis et al, 2012.
+
+---
 class: inverse, middle
 
 # Referências
@@ -321,4 +354,6 @@ GAINES, Todd A. et al. [Gene amplification confers glyphosate resistance in Amar
 Yu, Qin, et al. ["Evolution of a double amino acid substitution in the 5-enolpyruvylshikimate-3-phosphate synthase in Eleusine indica conferring high-level glyphosate resistance."](http://www.plantphysiol.org/content/167/4/1440#def-4) Plant physiology 167.4 (2015): 1440-1447.
 
 BLAINSKI, E.; CONSTANTIN, J.; OLIVEIRA JR, R.S.; BIFFE, D.F.; RAIMONDI, M.A.; BUCKER, E.G.; GHENO, E. [Eficácia de alternativas herbicidas para o controle de buva (Conyza bonariensis).](http://omnipax.com.br/livros/2013/BFRM/bfrm-livro.pdf) In: Resumos do 5º Congresso Brasileiro de Soja. Goiânia, GO: Funep, p.54, 2009.
+
+Davis, Adam S., et al. ["Increasing cropping system diversity balances productivity, profitability and environmental health."](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0047149) PloS one 7.10 (2012): e47149.
 
