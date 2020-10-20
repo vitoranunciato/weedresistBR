@@ -240,11 +240,11 @@ fig
 <img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/shit.gif?raw=true" width=500 height=500>
 </div>
 ---
-*Importancia do timing*
-<div align="center">
-<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/buva_altura.png?raw=true" width=800 height=600>
-</div>
 
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/buva_altura1.png?raw=true" width=800 height= 550>
+</div>
+ .pull-rigth[Blainski et al, 2009.]
 ---
 class: inverse, middle
 
@@ -270,5 +270,5 @@ GAINES, Todd A. et al. [Gene amplification confers glyphosate resistance in Amar
 
 Yu, Qin, et al. ["Evolution of a double amino acid substitution in the 5-enolpyruvylshikimate-3-phosphate synthase in Eleusine indica conferring high-level glyphosate resistance."](http://www.plantphysiol.org/content/167/4/1440#def-4) Plant physiology 167.4 (2015): 1440-1447.
 
-
+BLAINSKI, E.; CONSTANTIN, J.; OLIVEIRA JR, R.S.; BIFFE, D.F.; RAIMONDI, M.A.; BUCKER, E.G.; GHENO, E. [Eficácia de alternativas herbicidas para o controle de buva (Conyza bonariensis).](http://omnipax.com.br/livros/2013/BFRM/bfrm-livro.pdf) In: Resumos do 5º Congresso Brasileiro de Soja. Goiânia, GO: Funep, p.54, 2009.
 
