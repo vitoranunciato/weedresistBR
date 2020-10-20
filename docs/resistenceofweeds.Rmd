@@ -244,7 +244,33 @@ fig
 <div align="center">
 <img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/buva_altura1.png?raw=true" width=800 height= 550>
 </div>
- .pull-rigth[Blainski et al, 2009.]
+Blainski et al, 2009.
+---
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/buva_altura2.png?raw=true" width=800 height= 550>
+</div>
+Blainski et al, 2009.
+---
+class: inverse, middle
+
+# Manejo outonal
+
+---
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/manejo_outonal1.png?raw=true" width=800 height= 550>
+Antonio M.O. Neto, 2011.
+---
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/manejo_outonal2.png?raw=true" width=800 height= 550>
+Antonio M.O. Neto, 2011.
+---
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/manejo_outonal3.png?raw=true" width=800 height= 550>
+Antonio M.O. Neto, 2011.
+---
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/manejo_outonal4.png?raw=true" width=800 height= 550>
+Antonio M.O. Neto, 2011.
 ---
 class: inverse, middle
 
