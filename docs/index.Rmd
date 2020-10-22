@@ -14,18 +14,18 @@ output:
 ---
 # Vitor Muller Anunciato
 
-* Doutorando pela [FCA/UNESP](https://www.fca.unesp.br/) - Botucatu, BR.
+🎓 Doutorando pela [FCA/UNESP](https://www.fca.unesp.br/) - Botucatu, BR.
   + (Sanduiche [University of Nebraska Lincoln](https://pat.unl.edu/), EUA).
   
-* Mestrado pela [FCA/UNESP](https://www.fca.unesp.br/) - Botucatu, BR.
+🎓 Mestrado pela [FCA/UNESP](https://www.fca.unesp.br/) - Botucatu, BR.
 
-* Graduacao pela [UEL](http://portal.uel.br/home/) - Londrina, BR.
+🎓 Graduacao pela [UEL](http://portal.uel.br/home/) - Londrina, BR.
   + (Sanduiche [ENGEES](https://engees.unistra.fr/), Strasbourg, FR).
 
-* [Serial Weed Killer](https://serialweedkiller.netlify.app/)
+🔪 [Serial Weed Killer](https://serialweedkiller.netlify.app/)
   + (site de divulgacao agro-cientifica)
   
-* [PapoAgro podcast](https://www.papoagro.com.br/) (@papoagropodcast)
+🎧 [PapoAgro podcast](https://www.papoagro.com.br/) (@papoagropodcast)
 ---
 class: inverse, middle
 
@@ -66,6 +66,7 @@ Feng et al, 2004.
 
 ---
 ## Translocação diferencial
+
 .pull-left[![](https://media.giphy.com/media/WJfXll2zKkK08AsLNH/giphy.gif)]
 .pull-rigth[![](https://media.giphy.com/media/LpeYGQ9Cj0jjra3wTi/giphy.gif)]
 .pull-left[**Susceptível**]
@@ -106,6 +107,7 @@ Capacidade que as plantas resistentes possuem de **inativar ou transformar** o h
 <img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/detx.jpeg?raw=true" width=700 height=400>
 </div>
 
+De Carvalho et al, 2012.
 ---
 class: inverse, middle
 # Como a surge a resistência?
