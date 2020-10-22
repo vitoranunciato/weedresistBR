@@ -42,8 +42,10 @@ Yuan et al, 2007.
 ![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/tumblr_nbpotrjgO11qi4ibzo1_500.gif?raw=true)
 
 ---
-class:middle
-![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/doseresponse.png?raw=true)
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/doseresponse.png?raw=true" width=800 height=600>
+</div>
+
 
 Anunciato, 2017.
 
@@ -56,7 +58,9 @@ class: inverse, middle
 
 **Translocação diferencial** os biótipos **resistentes** apresentam lenta translocação do(s) herbicida(s) aplicados, não sendo raro os casos onde o herbicida fica **"confinado" ao local de contato**, não se redistribuindo na planta e **não atingindo tecidos de interesse para o controle da planta**.
 
-![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/diferencialtranslocation.gif?raw=true)
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/diferencialtranslocation.gif?raw=true" width=700 height=400>
+</div>
 
 Feng et al, 2004.
 
@@ -76,7 +80,9 @@ class: middle
 
 É um tipo de resistência onde a planta **"sacrifica"** os tecidos **atingidos** pelo herbicida, evitando que o mesmo **translouque** para o resto da planta, principalmente os meristemas.
 
-![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/rpnb.png?raw=true)
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/rpnb.png?raw=true" width=700 height=400>
+</div>
 Albrech, 2020.
 
 ---
@@ -96,8 +102,10 @@ Capacidade que as plantas resistentes possuem de **inativar ou transformar** o h
 ![](https://media.giphy.com/media/X7hOV8HGBtx64mdcR6/giphy.gif)
 ---
 ## Desintoxicação ou metabolização
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/detx.jpeg?raw=true" width=700 height=400>
+</div>
 
-![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/detx.jpeg?raw=true)
 ---
 class: inverse, middle
 # Como a surge a resistência?
@@ -106,7 +114,9 @@ class: inverse, middle
 ## Pressão de seleção
 É qualquer conjunto de fatores (ex: aplicacao de um determiando herbicida) que origina o favorecimento de determinados **genes** em relação a outros em determinada **população**.
 
-![](https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/selectionpressure.PNG?raw=true)
+<div align="center">
+<img src="https://github.com/vitoranunciato/weedresistBR/blob/main/docs/resistenceofweeds_files/figure-html/selection_of_weeds/selectionpressure.PNG?raw=true" width=700 height=400>
+</div>
 
 ---
 class: midle
